@@ -1,0 +1,141 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.home-page {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li, ul, nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.title {
+    color: #27a2bc;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.text {
+    color: #000000;
+    font-weight: 390;
+}
+
+button {
+    width: auto;
+    background-color: #f6755f;
+    font-size: 18px;
+    border-radius: 0;
+    border: 0 none;
+    color: #ffffff;
+    padding: 8px;
+}
+
+.column-1 {
+    text-align: right;
+    color: #000000;
+    font-size: 18px;
+    overflow: hidden;
+    max-width: 30ch;
+}
+
+.column-2 {
+    text-align: left;
+    color: #000000;
+    font-size: 18px;
+    overflow: hidden;
+    max-width: 30ch;
+}
+
+.titulo {
+    color: #27a2bc;
+    font-size: 20px;
+    font-weight: 600
+}
+
+.general {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1rem 5rem;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border-bottom: 4rem solid #f6755f;
+}
+
+.img-col-x {
+    width: 16rem;
+    border-radius: 30rem;
+    margin: 0 4rem;
+}
+
+.col-x {
+    padding: 2rem;
+    background-color: #ffffff;
+    display: flex;text-align: center;
+}
+
+.int {
+    text-align: center;
+}
+
+.login-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cont-1 {
+    text-align: center;
+    background-color: #f6755f;
+    height: 15rem;
+    padding: 2rem 24rem;
+    color: #ffffff;
+    font-size: 18px;
+}
+.album {
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.album-2{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    margin: 0 3rem;
+}
+
+.titulo, .descricao {
+    padding: .1rem 1rem;
+}
+
+.img-album {
+    width: 18rem;
+    height: 14rem;
+}
+
+.footer {
+    padding: 4rem;
+    height: 14rem;
+    background-color: #27a2bc;
+    text-align: center;
+}

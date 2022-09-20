@@ -1,0 +1,98 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a, a:link, a:hover, :active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu {
+    position: inherit;
+    left: 0;
+    top: 0;
+    background-color: #1b163c;
+    width: 15rem;
+    padding: 1rem;
+}
+.box {
+    box-shadow: 0 1px 6px 0 rgb(251 251 251 / 28%);
+    padding: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.list {
+    background-color: #333333;
+    width: 15rem;
+    padding: 3rem;
+    color: #ffffff;text-align: center;
+}
+
+li {
+    list-style: none;
+    margin: 25px;
+}
+
+.page-1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #8d87af;
+}
+
+.left {
+    font-size: 40px;
+    color: #5f5699;
+    
+}
+
+.left-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+button {
+    display: flex;
+    justify-content: flex-end;
+    width: 59px;
+}
+
+.grid {
+    overflow: hidden;
+    max-width: 5ch;
+    font-size: 26px;
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.desc {
+    overflow: hidden;
+    max-width: 37ch;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img{
+    width: 20rem;
+    height: 14rem;
+}

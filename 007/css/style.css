@@ -1,0 +1,30 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.home-page {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li, ul, nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}

@@ -1,0 +1,153 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #fe6f23;
+    background-color: hsl(198deg 64% 53%);
+    padding: 0 1rem;
+}
+
+a, a:link, a:hover, a:active {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+li , ul, nav {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-1 {
+    gap: 1rem;
+    display: flex;
+}
+
+.menu-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.more {
+    display: flex;
+    gap: 2rem;
+}
+
+.exem {
+    color: #000000;
+    border-radius: 100px;
+    padding: .4rem;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+.menu-3 {
+    background-color: #3aa6d4;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.logo {
+    width: 10rem;
+    height: 2rem;
+}
+
+.home-page {
+    background-image: url(../img/pic02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.title {
+    color: #3aa6d4;
+    font-size: 30px;
+}
+
+button {
+    background-color: #fe6f23;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+.titulo-bloco {
+    color: #fe6f23;
+    font-size: 20px;
+    border-bottom: 2px solid #3aa6d4;
+}
+
+.bloco {
+    text-align: center;
+    padding: 24px 20rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid #3aa6d4;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15rem;
+}
+
+.tub-image {
+    width: 60px;
+    height: auto;
+    text-align: center;
+}
+
+.title-bloc {
+    color: #fe6f23;
+    font-size: 20px;
+}
+
+.read {
+    margin: 15px;
+}
+
+.bloco-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    border-top: 2px solid #fe6f23;
+    padding: 1rem;
+    background-color: #3aa6d4;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}

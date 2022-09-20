@@ -1,0 +1,55 @@
+body {
+    background-color: #401753;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 3rem;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    outline: 0;
+    background-color: #401753;
+    width: 100%;
+    border: 2px solid #ff5c00;
+    margin: 0 0 15px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 100px;
+    color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.logo-1 {
+    width: 14rem;
+    height: 14rem;
+}
+
+.lembrar {
+    flex-direction: row;
+    display: flex;
+}
+
+.subir {
+    background-color: #ff5c00;
+}
